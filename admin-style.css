@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* CSS Document */
+div.epn_settings_div{
+}
+div.epn_settings_div h2{
+	background-color:#fff;
+	border-left:10px solid #F39;
+	padding:10px 0 10px 10px;
+}
+
+div.epn_settings_div code{
+	width:80%;	
+	text-align:center;
+	padding:3%;
+	margin:2% 5%;
+	float:left;
+	font-size: 2em; 
+	line-height:100%;
+	cursor:text;
+	clear:both;
+}
+
+div.epn_settings_div .epn_plus{
+	font-size: 3em; 
+	text-align:center;
+	float:left;
+	clear:both;
+	width:100%;
+	
+}
+
+div.epn_settings_div .epn_methods{
+	padding:0;
+	margin:0;
+	
+}
+
+div.epn_settings_div .epn_methods li{
+	border-top:10px solid #F39;
+	float:none;
+	clear:both;
+	list-style:none;
+	text-align:left;
+}
+
+div.epn_settings_div .epn_methods li:first-child{
+	
+}
+
+div.epn_settings_div .epn_methods li span{
+	background-color:#F39;
+	color:#fff;
+	font-size:12px;
+	padding:2px 20px 6px 10px;
+}
+
+div.epn_settings_div .epn_input{
+    border-top: 10px solid #f39;
+    clear: both;
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+	text-align:center;
+	font-size:16px;
+	line-height:58px;
+}
+
+div.epn_settings_div .epn_input input[type="text"]{
+	width:20%;
+	height:40px;
+	float:left;
+	font-size:20px;
+}
+
+div.epn_settings_div .epn_input input.next_text{
+	float:right;
+}
+
+div.epn_settings_div .epn_submit{
+	text-align:center;
+	padding-bottom:10px;
+}
+
+div.epn_settings_div .epn_submit input{	
+	background:#fff;
+	border:0;
+	border: 2px solid #f39;
+	border-radius:6px;
+	font-size:20px;
+	padding:10px 60px;
+	color:#f39;
+	cursor:pointer;
+}
+
+div.epn_settings_div .epn_submit input:hover{
+	background:#f39;	
+	color:#fff;
+	border: 2px solid #fff;
+}

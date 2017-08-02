@@ -1,0 +1,38 @@
+/* CSS Document */
+.epn_nav{
+	clear:both;
+	width:100%;
+	padding:10px 20px;
+	font-size:24px;
+	
+}
+.epn_nav div{
+	width:50%;
+}
+.epn_nav a{
+	cursor:pointer;
+	text-decoration:none;
+}
+.epn_nav a:hover{
+	text-decoration:none;
+}
+.epn_nav .epn_left{
+	float:left;	
+	text-align:left;
+}
+.epn_nav .epn_left a{
+	color:#666;
+}
+.epn_nav .epn_left a:hover{
+	color:#999;
+}
+.epn_nav .epn_right{
+	text-align:right;
+	float:left;
+}
+.epn_nav .epn_right a{
+	color:#666;
+}
+.epn_nav .epn_right a:hover{
+	color:#999;
+}
